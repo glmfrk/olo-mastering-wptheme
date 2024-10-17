@@ -1,0 +1,128 @@
+button,
+input,
+textarea,
+a {
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+button:hover,
+input:hover,
+textarea:hover,
+a:hover {
+  border: none;
+  outline: none;
+  text-decoration: none;
+}
+
+#studio_setting_box {
+  border: 1px solid rebeccapurple;
+  border-radius: 5px;
+  padding: 15px;
+}
+/* Setting Options Header Wrapper  */
+.header_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+  background: #e7e7e7;
+}
+.header_left_part {
+  display: flex;
+  align-items: center;
+  flex-basis: 40%;
+  gap: 50px;
+}
+
+.header_right_part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  flex: 1;
+}
+
+figure.logo {
+  margin: 0;
+  max-width: 220px;
+}
+
+figure.logo img {
+  width: inherit;
+}
+
+.support_center {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+.support_center figure {
+  width: 20px;
+  height: 20px;
+  margin: 0px;
+}
+.support_center figure img {
+  width: inherit;
+  height: inherit;
+  margin: 0px;
+}
+
+.search_panel {
+  position: relative;
+  max-width: 220px;
+  width: 100%;
+}
+.search_panel i {
+  position: relative;
+  z-index: 1;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  margin: 9px 5px;
+}
+
+.search_panel > input[type="search"] {
+  -webkit-appearance: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  padding: 2px 15px;
+  padding-left: 35px;
+  background: #f0f0f0;
+  border: 1px solid #d9d9d9;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.header_right_part .save_changes {
+  padding: 8px 25px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #038526;
+}
+.header_right_part .reset_data {
+  padding: 8px 15px;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  outline: none;
+  box-shadow: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #e32626;
+}
+.header_right_part .save_changes:focus,
+.header_right_part .reset_data:focus {
+  border-color: #d9d9d9;
+  outline: none;
+}
